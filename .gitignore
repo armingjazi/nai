@@ -27,8 +27,5 @@ htmlcov/
 .env
 .env.*
 
-# Data directories (large datasets)
-data/*/
-
 # Model artifacts (can be large)
 models/*.npy
