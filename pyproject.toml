@@ -5,8 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dotenv>=0.9.9",
     "matplotlib>=3.10.8",
     "nltk>=3.9.2",
     "numpy>=2.4.0",
     "pandas>=2.3.3",
+    "requests>=2.32.5",
+    "together>=2.0.0a11",
 ]

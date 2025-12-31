@@ -8,5 +8,27 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
 .claude
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linting/formatting
+.ruff_cache/
+
+# Logs
+*.log
+
+# Environment and config
 .DS_Store
+.env
+.env.*
+
+# Data directories (large datasets)
+data/*/
+
+# Model artifacts (can be large)
+models/*.npy
